@@ -9,7 +9,7 @@
     while (n > 0) {console.log(--n)};
      return `done`;}
 
-  function doWhileLoop(array) {
+  function doWhileLoop(array) { let array = {};
     function maybeTrue() {
       return Math.random() >= 0.5
     };
